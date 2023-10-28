@@ -11,8 +11,8 @@
       "options": {
         "platform": "node",
         "outputPath": "dist/apps/nx-npm-deps",
-        "format": ["cjs"],
-        "bundle": false,
+        "format": ["esm"],
+        "bundle": true,
         "main": "apps/nx-npm-deps/src/main.ts",
         "tsConfig": "apps/nx-npm-deps/tsconfig.app.json",
         "assets": ["apps/nx-npm-deps/src/assets"],
